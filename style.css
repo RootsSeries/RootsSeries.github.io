@@ -47,4 +47,10 @@ Dark mode
     .barheader{
         background-color:#464a4c
     }
+    a{
+        color:rgb(83, 158, 250)
+    }
+    a:hover{
+        color:rgb(0, 115, 255) 
+    }
 }
