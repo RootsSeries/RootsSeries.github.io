@@ -8,6 +8,11 @@ body{
     gap:5px;
 }
 
+.container{
+    width: 600px;
+    margin: auto;
+}
+
 .card{
     box-shadow:2px 2px 5px #CCC;
     padding: 20px;
@@ -16,6 +21,16 @@ body{
 }
 h1{
     text-align: center;
+}
+
+.linkbtn{
+    padding: 5px;
+    background-color: #fa5c5c;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
 }
 
 .poster{
