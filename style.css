@@ -9,8 +9,13 @@ body{
 }
 
 .container{
-    width: 600px;
+    max-width: 600px;
     margin: auto;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    color: white;
+    background-color: rgba(0.5,0.5,0.5,0.5);
+    border-radius: 10px;
 }
 
 .card{
@@ -21,6 +26,10 @@ body{
 }
 h1{
     text-align: center;
+}
+
+body{
+    background-size:cover;
 }
 
 .linkbtn{
