@@ -28,6 +28,10 @@ h1{
     text-align: center;
 }
 
+iframe{
+    width: 100%
+}
+
 body{
     background-size:cover;
 }
