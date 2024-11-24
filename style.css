@@ -55,6 +55,11 @@ iframe{
     margin: 5px;
 }
 
+.linkbtn:hover{
+    background-color: #c24747;
+    transition: background-color 0.5s;
+}
+
 .poster{
     display: block;
     margin-left: auto;
