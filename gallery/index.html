@@ -13,12 +13,19 @@
         <meta property="og:image:height" content="4096">
     </head>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <style>
+      .card{
+        display: grid;
+        grid-template-rows: 1fr fit-content(300px)
+      }
+    </style>
     <body>
       <h1>Characters</h1>
       <h2>Carrot-San</h2>
       <div class="main">
         <div class="card">
           <model-viewer src="CarrotSan.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+          In-game 3D model. Artist: Ravi Bhatt
         </div>
         <div class="card">
              <img class="poster" src="carrot-san.gif">
@@ -37,7 +44,8 @@
           3D model (eternal)
         </div>
         <div class="card">
-          3D model (2077)
+          <model-viewer src="BeetrootSan.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+          In-game 3D model (Roots: 2077 and Roots: 2). Artist: Ravi Bhatt
         </div>
         <div class="card">
           Roots: 2 Character selection version
