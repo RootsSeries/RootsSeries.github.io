@@ -18,8 +18,18 @@
         display: grid;
         grid-template-rows: 1fr fit-content(300px)
       }
+        
+    .mainbig{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+        gap:10px;
+    }
+    .cardbig{
+        padding: 0px;
+    }
     </style>
     <body>
+        Hint: Right-click on images and press "View Image" to view them larger! <a href="/">[Home]</a>
       <h1>Characters</h1>
       <h2>Carrot-San</h2>
       <div class="main">
@@ -168,9 +178,32 @@
       <h1>Cutscenes</h1>
         <h2>Root-Sama-San's Ascension</h2>
         Artist: Leo Jackson
-        <img src="tiny.png" class="poster">
-         <img src="roots.png" class="poster">
-         <img src="void.png" class="poster">
+        <div class="mainbig">
+            <div class="cardbig">
+                <img src="tiny.png" class="poster">
+            </div>
+             <div class="cardbig">
+                 <img src="roots.png" class="poster">
+            </div>
+            <div class="cardbig">
+                <img src="void.png" class="poster">
+            </div>
+        </div>
+        <h2>Splashes &amp; Logos</h2>
+         <div class="mainbig">
+             <div class="cardbig">
+                <img src="itch_picture.png" class="poster">
+                 Splash screen for Roots: Renewal of Bloom. Artist: Russel Kobelsky
+            </div>
+             <div class="cardbig">
+                <img src="roots2.png" class="poster">
+                 Splash screen for Roots: 2. Artist: Leo Jackson
+            </div>
+             <div class="cardbig">
+                <img src="roots-eternal-logo.png" class="poster">
+                 Splash screen for Roots: Eternal. Artist: Rahul Unniyampath
+            </div>
+         </div>
       <hr>
         <h1>Items &amp; Props</h1>
           <div class="main">
@@ -281,6 +314,10 @@
               <div class="card">
                   <img class="poster" src="health-potion-icon.png">
                   Unused health potion icon for Roots: Eternal. Artist: Rahul Unniyampath 
+              </div>
+              <div class="card">
+                  <img class="poster" src="abxy.png">
+                  Unused controller button icons for Roots: Eternal. Artist: Ravi Bhatt
               </div>
            </div>
         <hr>
