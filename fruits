@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Fruits</title>
+        <meta name="description" content="The roots have invaded the multiverse!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="../style.css">
+         <!-- Social embed image -->
+        <meta property="og:image" content="https://rootsseries.github.io/fruits/favicon.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="4096">
+        <meta property="og:image:height" content="4096">
+    </head>
+    <body style="background-image: url(poster.jpg);">
+        <div class="container">
+            <h1>Rootout</h1>
+            <p>
+                The roots have invaded the multiverse! There is only one thing left to do, you must defeat the invading enemies and save the world with the power of Fruits!
+            </p>
+            <p>
+                This game was created during the WolverineSoft hosting of the 2025 Global Game Jam. 
+            </p>
+            <h3>Controls</h3>
+            <p>
+                <ul>
+                  <li>WASD - Move</li>
+                  <li>Space - Shoot</li>
+                </ul>
+            </p>
+            <p>
+                <h3>Play!</h3>
+                Downloads coming soon...
+            </p>
+            <p>
+                <h3>Video</h3>
+                Video coming soon...
+            </p>
+            <p>
+                <h3>Developer credits</h3>
+                <ul>
+                    <li>
+                        Daniel Tian - 3D cutscene animation, lore writing
+                    </li>
+                    <li>
+                        Marco Brizzio - Programming
+                    </li>
+                    <li>
+                        Ethan Leach - Programming
+                    </li>
+                    <li>
+                        Jose Franco - Programming 
+                    </li>
+                     <li>
+                         Murphy Justinian - Programming
+                    </li>
+                    <li>
+                        Shawn Halimman - 2D artwork and programming 
+                    </li>
+                   
+                    <li>
+                        SC Klein - 2D character animation, sound effects
+                    </li>
+                    <li>
+                        Isabel Hill - 2D artwork (enemy, effects, and backgrounds) 
+                    </li>
+                    
+                    <li>
+                        Leo Jackson - 2D artwork (enemy, effects, and backgrounds) 
+                    </li>
+                    <li>
+                        Zane Buenaflor - Music
+                    </li>
+                </ul>
+                <em>Note: some assets were reused from previous games. Visit the pages for those games to see their credits.</em>
+            </p>
+        </div>
+    </body>
+</html>
