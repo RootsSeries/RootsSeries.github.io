@@ -75,6 +75,11 @@ iframe{
     max-height: 400px;
 }
 
+.poster canvas {
+    width: 100% !important;
+    image-rendering: pixelated;
+}
+
 /*
 Dark mode
 */

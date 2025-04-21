@@ -31,6 +31,11 @@
         }
     }
 
+    @keyframes sprite {
+        from { background-position: 0 0%; }
+        to { background-position: 0 100%; }
+    }
+
         
     .cardbig{
         padding: 0px;
@@ -44,7 +49,13 @@
             max-width: 80px;
             margin: auto;
         }
+        .pixelart {
+            image-rendering: pixelated;
+            margin: auto;
+        }
     </style>
+    <script src="../x-tag-core.js"></script>
+    <script src="../sprite-player.js"></script>
     <body>
         Hint: Right-click on images and press "View Image" to view them larger! <a href="/">[Home]</a>
       <h1>Characters</h1>
@@ -68,6 +79,10 @@
               <img class="poster thumb" src="carrot-icon.png">
               Roots: Eternal HUD icon. Artist: Rahul Unniyampath
           </div>
+        <div class="card">
+            <img class="poster pixelart" src="Carrotsan.png">
+            Fruits enemy sprite. Artist: Leo Jackson
+         </div>
       </div>
 
       <h2>Potato-San</h2>
@@ -88,6 +103,10 @@
               <img class="poster thumb" src="potato-icon.png">
               Roots: Eternal HUD icon. Artist: Rahul Unniyampath
           </div>
+        <div class="card">
+            <img class="poster pixelart" src="Potatosan.png">
+            Fruits enemy sprite. Artist: Leo Jackson
+         </div>
       </div>
 
       <h2>Onion-San</h2>
@@ -108,6 +127,10 @@
               <img class="poster thumb" src="onion-icon.png">
               Roots: Eternal HUD icon. Artist: Rahul Unniyampath
           </div>
+        <div class="card">
+            <img class="poster pixelart" src="Onionsan.png">
+            Fruits enemy sprite. Artist: Leo Jackson
+         </div>
       </div>
 
       <h2>Beetroot-San</h2>
@@ -128,6 +151,10 @@
               <img class="poster thumb" src="beet-icon.png">
               Roots: Eternal HUD icon. Artist: Rahul Unniyampath
           </div>
+        <div class="card">
+            <img class="poster pixelart" src="Beetsan.png">
+            Fruits enemy sprite. Artist: Leo Jackson
+        </div>
       </div>
 
       <h2>GGJ-San</h2>
@@ -150,6 +177,21 @@
            <img class="poster" src="ggj_san.png">
           Roots: 2 character selection version. Artist: Leo Jackson
         </div>
+        <div class="card">
+            <img class="poster pixelart" src="GGJ-San.png">
+            Fruits enemy sprite. Artist: Leo Jackson
+         </div>
+      </div>
+      <h2>Apple-San</h2>
+      <div class="main">
+        <div class="card">
+          <model-viewer interaction-prompt="none" src="Apple-San.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+          3D cutscene model (Fruits). Artist: Daniel Tian
+        </div>
+        <div class="card">
+            <sprite-player class="poster" src="./apple.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+            Fruits player sprite. Artist: SC Klein
+         </div>
       </div>
       <hr>
         <h1>Music</h1>
@@ -282,7 +324,7 @@
                   Root-Sama-San model. Artist: Daniel Tian
              </div>
         </div>
-        <h2>Splashes &amp; Logos</h2>
+        <h2>Splashes, Backgrounds, &amp; Logos</h2>
          <div class="mainbig">
              <div class="cardbig">
                 <img src="itch_picture.png" class="poster">
@@ -295,6 +337,46 @@
              <div class="cardbig">
                 <img src="roots-eternal-logo.png" class="poster">
                  Splash screen for Roots: Eternal. Artist: Rahul Unniyampath
+            </div>
+            <div class="cardbig">
+                <img src="city1.png" class="poster pixelart">
+                 City background tile for Fruits. Artist: Leo Jackson
+            </div>
+            <div class="cardbig">
+                <img src="city30001.png" class="poster pixelart">
+                 City background tile for Fruits. Artist: Leo Jackson
+            </div>
+            <div class="cardbig">
+                <img src="city30002.png" class="poster pixelart">
+                 City background tile for Fruits. Artist: Leo Jackson
+            </div>
+            <div class="cardbig">
+                <img src="island1.png" class="poster pixelart">
+                 Island background tile for Fruits. Artist: Leo Jackson
+            </div>
+            <div class="cardbig">
+                <img src="island2.png" class="poster pixelart">
+                Island background tile for Fruits. Artist: Leo Jackson
+            </div>
+            <div class="cardbig">
+                <img src="island3.png" class="poster pixelart">
+                Island background tile for Fruits. Artist: Leo Jackson
+            </div>
+            <div class="cardbig">
+                <img src="Train Station 1.png" class="poster pixelart">
+                 Train station background tile for Fruits. Artist: Isabel Hill
+            </div>
+            <div class="cardbig">
+                <img src="Train Station 2.png" class="poster pixelart">
+                Train station background tile for Fruits. Artist: Isabel Hill
+            </div>
+            <div class="cardbig">
+                <img src="Train Station 3.png" class="poster pixelart">
+                Train station background tile for Fruits. Artist: Isabel Hill
+            </div>
+            <div class="cardbig">
+                <img src="Train Station 4.png" class="poster pixelart">
+                Train station background tile for Fruits. Artist: Isabel Hill
             </div>
          </div>
       <hr>
@@ -372,6 +454,10 @@
                   <model-viewer interaction-prompt="none" src="OGTree.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                   Player Tree model for Roots: Renewal of Bloom. Artist: Ravi Bhatt
               </div>
+              <div class="card">
+                <sprite-player class="poster" src="./tree.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+                Tree enemy sprite for Fruits. Artist: SC Klein
+              </div>
                <div class="card">
                   <model-viewer interaction-prompt="none" src="Pistol.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                   Pistol model for Roots: Eternal. Artist: Ravi Bhatt
@@ -383,6 +469,10 @@
               <div class="card">
                   <img class="poster" src="pistol-icon.png" style="image-rendering: pixelated;">
                   Pistol icon for Roots: Eternal. Artist: Rahul Unniyampath 
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./playerbubble.png" rows="1" cols="5" fps="12" autoplay loop></sprite-player>
+                Player buble projectile sprite for Fruits. Artist: Leo Jackson
               </div>
               <div class="card">
                   <model-viewer interaction-prompt="none" src="PlantPot.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
@@ -400,17 +490,93 @@
                   <model-viewer interaction-prompt="none" src="crossinggate.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                   Crossing gate model for Roots: Eternal. Artist: Ravi Bhatt
               </div>
+              <div class="card">
+                <sprite-player class="poster" src="./leaf.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+                Leaf obstacle sprite for Fruits. Artist: SC Klein
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./twig.png" rows="1" cols="6" fps="12" autoplay loop></sprite-player>
+                Twig obstacle sprite for Fruits. Artist: SC Klein
+              </div>
                <div class="card">
                   <model-viewer interaction-prompt="none" src="healthpot.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                   Unused health potion model for Roots: Eternal. Artist: Ravi Bhatt
               </div>
               <div class="card">
-                  <img class="poster thumb" src="health-potion-icon.png">
+                  <img class="poster pixelart" src="health-potion-icon.png">
                   Unused health potion icon for Roots: Eternal. Artist: Rahul Unniyampath 
               </div>
               <div class="card">
                   <img class="poster" src="abxy.png">
                   Unused controller button icons for Roots: Eternal. Artist: Ravi Bhatt
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./cherry.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+                Unused player sprite (cherry) for Fruits. Artist: SC Klein
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./grape.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+                Unused player sprite (grape) for Fruits. Artist: SC Klein
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./lime.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+                Unused player sprite (lime) for Fruits. Artist: SC Klein
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./orange.png" rows="1" cols="4" fps="12" autoplay loop></sprite-player>
+                Unused player sprite (orange) for Fruits. Artist: SC Klein
+              </div>
+              <div class="card">
+                <sprite-player class="poster" src="./lazer.png" rows="1" cols="5" fps="12" autoplay loop></sprite-player>
+                Unused laser sprite (orange) for Fruits. Artist: Leo Jackson
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/apple.png">
+                Placeholder player sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/carrot.png">
+                Placeholder Carrot-san enemy sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/potato.png">
+                Placeholder Potato-san enemy sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/onion.png">
+                Placeholder Onion-san enemy sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/beet.png">
+                Placeholder Beetroot-San enemy sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/ggjsan.png">
+                Placeholder GGJ-San enemy sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/rootsamasan.png">
+                Placeholder Root-Sama-San enemy sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/bubble.png">
+                Placeholder bubble sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/fork.png">
+                Placeholder fork sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/leaf.png">
+                Placeholder leaf obstacle sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/stick.png">
+                Placeholder stick obstacle sprite for Fruits. Artist: Ethan Leach
+              </div>
+              <div class="card">
+                <img class="poster pixelart" src="placeholder/tree.png">
+                Placeholder tree boss sprite for Fruits. Artist: Ethan Leach
               </div>
                <div class="card">
                   <img class="poster" src="concept1.jpg">
